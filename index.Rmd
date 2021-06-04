@@ -1,0 +1,19 @@
+---
+title: "Poseu aqui un títol"
+author: "Primer Autor, Segon Autor, etc."
+date: "11/6/2021"
+output: html_document
+---
+
+# Títol de secció
+
+Poseu aqui el codi R Markdown necessari per el.laborar l'informe d'aquesta
+pràctica.
+
+Llegim les dades.
+
+```{r}
+dat <- read.csv("dades.csv")
+dim(dat)
+head(dat)
+```
