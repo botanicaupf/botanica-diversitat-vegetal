@@ -21,3 +21,15 @@ desenvolupeu com a part d'aquesta pràctica:
 Tot i que podeu afegir al repositori tots els fitxers que necessiteu,
 **és important que aquests quatre fitxers hi siguin amb els noms donats**,
 ja que això ens permetrà agilitzar la correcció.
+
+Aquest repositori està equipat amb el que s'anomena un flux de treball de
+_GitHub Actions_, el qual cada cop que feu _push_ en el repositori intentarà
+processar el fitxer `index.Rmd`. Si el resultat d'aquest pas, que pot trigar uns
+minuts, és satisfactori veureu un símbol verd de vist-i-plau a dalt d'aquesta pàgina,
+i si no ho és una creu vermella. Aquests dos resultats també són visibles a través
+d'una insígnia que trobareu just a sota del títol d'aquest README, i que a la vegada
+és un enllaç a la pestanya del flux de treball on trobareu els detalls dels errors
+que s'han trobat, si n'hi ha hagut. Si voleu que el propi flux de treball actualitzi
+el fitxer `index.html`, heu d'afegir al repositori un fitxer de text buit anomenat
+`.push`, però tingueu en compte aleshores que haureu d'actualitzar la vostra còpia
+local del repositori (via `git pull`) per baixar-vos aquest fitxer generat.
