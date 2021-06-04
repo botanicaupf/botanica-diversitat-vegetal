@@ -1,6 +1,6 @@
 # Aproximació a la diversitat vegetal
 
-![processa-rmarkdown](../../workflows/processa-rmarkdown/badge.svg)
+![processa-rmarkdown](../../actions/workflows/processa-rmarkdown/badge.svg)
 
 Per facilitar l'entrega i la correció de la pràctica sobre la diversitat vegetal
 de l'assignatura de botànica, feu anar aquest repostori GitHub on trobareu els
